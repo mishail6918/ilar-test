@@ -1,0 +1,141 @@
+@media screen and (max-width: 1024px) {
+    .comments {
+        .new-content__container {
+            margin-left: auto;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .specialist {
+        width: 100%;
+        justify-content: center;
+    }
+    .illustration {
+        &__image {
+            height: 450px;
+            img {
+                object-fit: cover;
+            }
+        }
+    }
+    .specialist-comment {
+        padding: 30px 45px 38px 45px;
+        &__container {
+            max-width: none;
+        }
+        &__text {
+            font-size: 18px;
+        }
+    }
+    .questions {
+        .tab {
+            &__question {
+                .click-area {
+                    padding: 23px 15px;
+                }
+                .specialist-comment {
+                    padding: 30px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 570px) {
+    .title {
+        h1 {
+            margin-bottom: 25px;
+            font-size: 35px;
+        }
+        &__announce {
+            max-width: 100%;
+        }
+    }
+    .specialist {
+        &__info {
+            span {
+                font-size: 15px;
+            }
+        }
+    }
+    .illustration--content {
+        .illustration__image {
+            height: 300px;
+        }
+    }
+    .content {
+        &__text--top {
+            margin: 25px 0px;
+            font-size: 20px;
+        }
+        &__title {
+            h3 {
+                font-size: 24px;
+            }
+        }
+    }
+    .questions {
+        margin-bottom: 30px;
+        .tab {
+            &:not(:last-child) {
+                margin-bottom: 40px;
+            }
+            &__question {
+                .click-area {
+                    h3 {
+                        font-size: 17px;
+                    }
+                }
+            }
+            &__content {
+                ol {
+                    li {
+                        font-size: 16px;
+                        &:not(:last-child) {
+                            margin-bottom: 12px;
+                        }
+                    }
+                }
+                .text {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .comments {
+        margin: 30px 0 65px 0px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .title {
+        h1 {
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+    }
+    .content {
+        &__text {
+            font-size: 17px;
+        }
+        &__title {
+            h3 {
+                font-size: 24px;
+            }
+        }
+    }
+    .preview {
+        &__marks {
+            margin: 35px 0px;
+            .mark {
+                h5 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .specialist-comment {
+        padding: 30px 20px;
+        &__text {
+            font-size: 16px;
+        }
+    }
+}
