@@ -138,4 +138,11 @@
             font-size: 16px;
         }
     }
+    .comments {
+        .form {
+            &__input {
+                min-height: 90px;
+            }
+        }
+    }
 }

@@ -347,6 +347,7 @@
         display: inline-flex;
         align-items: flex-start;
         margin: 20px 0px;
+        width: 100%;
         .image {
             border-radius: 25px;
             width: 40px;
@@ -356,6 +357,7 @@
             flex-shrink: 0;
         }
         .infos {
+            width: 100%;
             &__top {
                 display: flex;
                 align-items: center;
@@ -390,7 +392,14 @@
                     display: flex;
                     align-items: center;
                     &__number {
-                        margin: 0 12px;
+                        margin: 0 7px;
+                        padding: 5px;
+                        transition: 0.3s;
+                        border-radius: 5px;
+                    }
+                    .count-active {
+                        background-color: #8185c8;
+                        color: #ffffff;
                     }
                     &__btn {
                         cursor: pointer;

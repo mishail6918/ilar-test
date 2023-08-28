@@ -12,7 +12,6 @@ tabs.forEach((element) =>{
         }
         const id = this.id;
         document.querySelector('#content' + id).classList.toggle('tab__content--active');
-
     })
 });
 
