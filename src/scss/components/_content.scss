@@ -324,7 +324,7 @@
                     height: 0px;
                 }
                 &__image {
-                    background-image: url("/img/Addphoto.png");
+                    background-image: url("../img/Addphoto.png");
                     width: 27px;
                     height: 27px;
                     background-repeat: no-repeat;
@@ -348,6 +348,9 @@
         align-items: flex-start;
         margin: 20px 0px;
         width: 100%;
+        &--sub {
+            margin-left: 50px;
+        }
         .image {
             border-radius: 25px;
             width: 40px;
